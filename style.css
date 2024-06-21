@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h1:hover {
+    text-decoration-line: underline;
+}
+
+#portraitimg {
+    border-radius: 10px;
+    height: 200px !important;
+    vertical-align: middle !important;
+}
+
+#flexaligncontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.infotext {
+    margin: 16px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
