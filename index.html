@@ -4,31 +4,53 @@
     </head>
 
     <body>
+        <header>
+            This is the header. The logo and a tagline should be here.
+        </header>
+
+        <nav> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
+            </ul>
+        </nav>
+
         <h1>Simple Portfolio</h1>
-        <h2>Project 1 of my 100 days of code</h2>
         
-        <div id="flexaligncontainer">
-            <div style="display:flex">
-                <img src="images/Orhan_SAbild.png" alt="Portrait of Yahya" id="portraitimg">
-                <p class="infotext">My name is Yahya. <br> I look very yellow in this picture</p>
-            </div>
-            <div>
-                <h3>About me</h3>
-                <p>Im still a student. This is the first project of 100 days of code.</p>
-                <h3>My hard skills</h3>
-                <p>I have experience with:</p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Java</li>
-                    <li>Git</li>
-                </ul>
-                <h3>My experience</h3>
-                <p>I've been working for almost 5 years now as an administrator, web developer, and team lead in a company focused on E-Learning.</p>
-                <h3>My projects</h3>
-                <p>TODO: Add a carousel with images This is the first project of 100 days of code.</p>
-            </div>
+        <section id="firstsec">
+            <h2>Project 1</h2>
+            <div id="flexaligncontainer">
+                <div style="display:flex">
+                    <img src="images/Orhan_SAbild.png" alt="Portrait of Yahya" id="portraitimg">
+                    <p class="infotext">My name is Yahya. <br> The man in the picture may or may not be me.</p>
+                </div>
+    
+                <div>
+                    <h3>About me</h3>
+                    <p>My mom says I'm good looking. This is the first project of 100 days of code.</p>
+                    <h3>My hard skills</h3>
+                    <p>I have experience with:</p>
+
+                    <div class="grid-container">
+                        <div class="grid-item">HTML</div>
+                        <div class="grid-item">CSS</div>
+                        <div class="grid-item">JavaScript</div>
+                        <div class="grid-item">Java</div>
+                        <div class="grid-item">Git</div>
+                        <div class="grid-item">SQL</div>
+                      </div>
+                    <h3>My experience</h3>
+                    <p>I've been working for almost 5 years now as an administrator, web developer, and team lead in a company focused on E-Learning.</p>
+                    <h3>My projects</h3>
+                    <p>TODO: Add a carousel with images This is the first project of 100 days of code.</p>
+                </div>
+                
+            </div>    
+        </section>
+
+        <footer>
             <div id="footer">
                 <div>
                     <p class="lineheader"><b>Facts about me:</b></p>     
@@ -59,7 +81,6 @@
                     </table>
                 </div>
             </div>
-        </div>
-
+        </footer>
     </body>
 </html>
